@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7kkyc2');
+  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+			/*版心*/
+.w {
+	width: 1190px;
+	margin: auto;
+}
+     	 /*向左浮动*/
+.fl {
+	float: left;
+}
+ 		/*向右浮动*/
+.fr {
+	float: right;
+}
+img {
+	vertical-align: top;
+}
+h1 {
+	margin: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+i {
+	font-style: normal;
+}
+.style-red {
+	color: #f10215!important;
+}
+.J_event {
+	background-color: #000;
+}
+.J_event a {
+	background: url(../images/top.jpg) no-repeat;
+	height: 80px;
+	display: block;
+	position: relative;
+}
+
+.J_event a i {
+	font-family: "icomoon";
+	height: 15px;
+	width: 15px;
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 5px;
+	right: 0;
+	color: #fff;
+	line-height: 15px;
+	text-align: center;
+	font-style: normal;
+}
+.shortcut {
+	background-color: #e3e4e5;
+	height: 30px;
+	border-bottom: 1px solid #dddddd;
+	line-height: 30px;
+	font-size: 12px;
+}
+.shortcut .fr li {
+	float: left;
+}
+.shortcut .fl i {
+	font-size: 14px;
+	font-style: normal;
+	font-family: "icomoon";
+	color: #f10215;
+}
+.shortcut .fr a:hover {
+	color: #f03a35;
+}
+.shortcut .fr a {
+	color: #a2abc8;
+}
+.spacer {
+	background-color: #ccc;
+	width: 1px;
+	height: 10px;
+	margin: 10px 10px 0;
+}
+.shortcut .fl li {
+	margin-left: 200px;
+	color: #a2abc8;
+	overflow: hidden;
+}
+.shortcut .dropdown{
+	padding-right: 15px;
+	position: relative;
+}
+
+.dropdown i {
+	font-family: "icomoon";
+	font-size:16px;
+	font-style: normal;
+	position: absolute;
+	right: -3px;
+	top: -2px;
+	color: #aaa3a8;
+}
+.erweibox {
+	position: relative;
+}
+.erweima {
+	height: 60px;
+	width: 60px;
+	border:1px solid #ccc;
+	padding:3px;
+	position: absolute;
+	left: -7px;
+    top: 30px;
+}
+.inner {
+	height: 140px;
+	position: relative;
+}
+.logo {
+	width: 190px;
+	height: 170px;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	background: url(../images/logo.png) no-repeat;
+	overflow: hidden;
+	box-shadow: 2px 2px 2px 2px #ccc;
+}
+.logo a {
+	display: block;
+	width: 190px;
+	height: 170px;
+	text-indent: -9999em;
+}
+.search {
+	width: 550px;
+	height: 35px;
+	position: absolute;
+	top: 25px;
+	left: 320px;
+	background-color: pink;
+}
+.search input {
+	width: 493px;
+	height: 33px;
+	outline: none;
+	padding:0 0 0 5px;
+	color: #989898;
+	border: 1px solid #f10215;
+	float: left;
+	font-size: 14px;
+}
+.search button {
+	height: 35px;
+	width: 50px;
+	cursor: pointer;
+	padding: 0;
+	outline: none;
+	float: left;
+
+}
+.search button i {
+	font-style: normal;
+	font-family: "icomoon";
+}
+.search em {
+	position: absolute;
+	width: 19px;
+	height: 16px;
+	right: 65px;
+	top: 10px;
+	background: url(../images/sprite-search.png) no-repeat;
+	cursor: pointer;
+}
+.search em:hover {
+	background-position: -30px 0;
+}
+.hotwords  {
+	position: absolute;
+	left: 320px;
+	top: 70px;
+
+}
+.hotwords a {	
+	font-size: 12px;
+	color: #9e9e9e;
+	padding-right: 5px;
+}
+.hotwords a:hover {
+	color: #f10215;
+}
+.myCar {
+	width: 188px;
+	height: 33px;
+	border: 1px solid #ccc;
+	position: absolute;
+	right: 100px;
+	top: 25px;
+	text-align: center;
+	line-height: 33px;
+	font-size: 12px;
+
+}
+.myCar a {
+	color: #f10215;
+}
+.myCar s {
+	text-decoration: none;
+	font-family: "icomoon";
+	color: #f10215;
+}
+.myCar i {
+	position: absolute;
+	height: 12px;
+	background-color: #f10215;
+	line-height:12px;
+	border-radius: 8px;
+	left: 140px;
+	top: 5px;
+	font-size: 12px;
+	color: #fff;
+	padding: 0 3px;
+}
+.computer {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+.navitems {
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+}
+.navitems ul {
+	float: left;
+}
+.navitems ul li {
+	float: left;
+	margin-left: 30px;
+	height: 40px;
+	line-height: 40px;
+}
+.navitems li a {
+	font-size: 16px;
+	color: #555;
+	font-weight: 700;
+}
+.navitems li a:hover {
+	color: #f10215;
+}
+.navitems .spacer {
+	float: left;
+	margin-top: 15px;
+	margin-right: -10px;
+	margin-left: 20px;
+}
+.footer {
+	background-color: #eaeaea;
+	height: 567px;
+}
+.footer-service {
+	border-bottom: 1px solid #dedede;
+	padding: 30px 0;
+	overflow: hidden;
+}
+.footer-service-item ul li {
+	float: left;
+	width: 251px;
+	height: 42px;
+	line-height: 42px;
+	padding-left: 46px;
+}
+.service_unit {
+	width: 225px;
+	height: 42px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}	
+.service_unit h5 {
+	width: 37px;
+	height: 42px;
+	background: url(../images/ico_service.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-indent: -2em;
+}
+.service_unit p {
+	margin-left: 46px;
+	font-weight: 700;
+	font-size: 18px;
+}
+.service_unit .kuai {
+	background-position: 0 -43px;
+}
+.service_unit .hao {
+	background-position: 0 -86px;
+}
+.service_unit .sheng {
+	background-position: 0 -128px;
+}
+.help {
+	height: 180px;
+	padding-top: 20px;
+}
+.help dl {
+	float: left;
+	width: 195px;
+
+}
+.help a{
+
+	font-size: 12px;
+	color: #727272;
+}
+
+.help dt {
+	font-size: 14px;
+	font-weight: 700;
+	color: #666;
+	height: 30px;
+}
+.help dd {
+
+	height: 22px;
+	line-height: 22px;
+}
+.help dd a:hover {
+	color: #f10215;
+}
+.help .cover {
+	width: 207px;
+	height: 150px;
+	background: url(../images/ico_footer.png) no-repeat;
+	float: right;
+}
+.cover dt {
+	text-align: center;
+}
+.help .info {
+	font-size: 12px;
+	color: #727272;
+	width: 173px;
+	height: 56px;
+	line-height: 20px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.help .more {
+	text-align: right;
+	padding: 10px;
+}
+.copyright {
+	border-top: 1px solid #ccc;
+	padding-top: 25px;
+}
+.copyright a {
+	color: #727272;
+	font-size: 12px;
+}
+span {
+	color: #727272;
+	font-size: 12px;
+	margin: 0 5px;
+}
+.links {
+	text-align: center;
+}
+.c-info {
+	text-align: center;
+	margin-top: 15px;
+}
+.c-info p {
+	color: #727272;
+	font-size: 12px;
+	line-height: 22px;
+
+}
